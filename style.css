@@ -1,0 +1,75 @@
+.element1 {
+    background-color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.header ,ul, a {
+    text-decoration: none;
+    color: #f9faf8;
+    list-style-type: none;
+    font-size: 15px; 
+}
+
+.header, ul {
+    display: flex;
+    gap: 15px;
+}
+
+.image img {
+    width: 300x;
+    height: 250px;
+}
+
+body {
+    height: 100hv;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}   
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 440px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.info .text1 {
+    font-size: 48px;
+    width: 340px;
+}
+
+.info .text2 {
+    font-size: 18px;
+    width: 500px;
+    color: #e5e7eb;
+}
+
+.info_image {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.button1, button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: rgb(99, 99, 230);
+    width: 90px;
+    padding: 3px;
+    color: white;
+    cursor: pointer;
+}
