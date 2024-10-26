@@ -1,10 +1,23 @@
+
+body {
+    height: 100hv;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}   
+
+/*FIRST SEGMENT*/
+
 .element1 {
     background-color: #1F2937;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
     gap: 50px;
+    padding-bottom: 30px;
 }
 
 .header ,ul, a {
@@ -22,15 +35,9 @@
 .image img {
     width: 300x;
     height: 250px;
+    border: 2px solid white;
+    border-radius: 30px;
 }
-
-body {
-    height: 100hv;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: Roboto, sans-serif;
-}   
 
 .header {
     display: flex;
@@ -58,21 +65,22 @@ body {
 }
 
 .info_image {
-    margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 100px;
 }
 
 
-.button1, button {
+.info .button {
+    margin-top: 14px;
     border: none;
     border-radius: 8px;
     background: rgb(99, 99, 230);
-    width: 90px;
-    padding: 3px;
+    width: 100px;
+    padding: 6px;
     color: white;
     cursor: pointer;
+    height: auto;
 }
 
 /*SECOND SEGMENT*/
@@ -103,8 +111,86 @@ body {
 }
 
 .blocks img {
+    border: 3px solid rgb(99, 99, 230);
+    border-radius: 30px;
     width: 350px;
     height: 270px;
 }
 
-/*
+/*THIRD SEGMENT*/
+
+.element3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 60px;
+}
+
+.citation {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 900px;
+}
+
+.person {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/*FOURTH SEGMENT*/
+
+.element4 {
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(99, 99, 230);
+    padding: 70px;
+    display: flex;  
+    gap: 200px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.messages {
+    color: white;
+}
+
+.message1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.container .button {
+    border: 2px solid white;
+    border-radius: 8px;
+    background: rgb(99, 99, 230);
+    padding: 6px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
