@@ -12,3 +12,5 @@ A 2nd project in line from the Odin Project website; creating a website
 *This website is in Serbian, and it is about a firm that is
  importing-exporting vehicles all over Europe (meaning EU and out of it)
 
+ *IMPORTANT* COPYRIGHT IS NOT REAL, AND IS ONLY THERE, JUST LIKE THE REST OF THE CONTENT, AS A DUMMY!
+

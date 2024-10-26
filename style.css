@@ -2,11 +2,9 @@
 body {
     height: 100hv;
     margin: 0;
-    font-family: Roboto, sans-serif;
-    min-width: 400px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
 }   
 
 /*FIRST SEGMENT*/
@@ -15,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    gap: 400px;
 }
 
 .section {
@@ -68,7 +67,7 @@ body {
 
 .info_image {
     display: flex;
-    gap: 100px;
+    gap: 400px;
     margin-bottom: 40px;
 }
 
@@ -141,6 +140,7 @@ body {
     font-style: italic;
     color: #1F2937;
     max-width: 900px;
+    font-weight: 200;
 }
 
 .person {
@@ -197,4 +197,5 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    font-weight: 100;
 }
